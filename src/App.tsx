@@ -1,7 +1,11 @@
+import Title from "./components/Title"
+import GlobalStyle from "./styles"
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <GlobalStyle />
+      <Title />
     </>
   )
 }
