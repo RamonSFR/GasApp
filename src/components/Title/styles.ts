@@ -1,14 +1,20 @@
 import styled from 'styled-components'
-import variables from '../../styles/variables'
 
-export const Title = styled.h1`
-  color: ${variables.white};
-  font-size: 5rem;
+export const Img = styled.img`
+  width: 35%;
+
+  @media screen and (max-width: 1024px) {
+    width: 75%;
+  }
 `
 
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 128px 0px;
+  margin: 64px 0px 32px 0;
+
+  @media screen and (max-width: 1024px) {
+    margin: 64px 0px 32px 0;
+  }
 `

@@ -1,5 +1,5 @@
-import Title from "./components/Title"
 import GlobalStyle from "./styles"
+import Title from "./components/Title"
 
 function App() {
   return (
